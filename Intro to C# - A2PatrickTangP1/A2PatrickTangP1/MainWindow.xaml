@@ -1,0 +1,18 @@
+﻿<Window x:Class="A2PatrickTangP1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Patrick Tang Assignment 2 Part 1" Height="250" Width="575">
+    <Grid>
+        <Label x:Name="lblStudent" Content="Are you a Canadian Citizen or an International Student?" HorizontalAlignment="Left" Margin="55,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAge" Content="How old are you?" HorizontalAlignment="Left" Margin="415,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblExamples" Content="ie. February, Jun, Sept" HorizontalAlignment="Left" Margin="180,142,0,0" VerticalAlignment="Top" Opacity="0.5"/>
+        <Label x:Name="lblTotal" Content="Total:" HorizontalAlignment="Left" Margin="420,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblRegister" Content="What month did you register in?" HorizontalAlignment="Left" Margin="55,110,0,0" VerticalAlignment="Top" Height="36"/>
+        <TextBox x:Name="textAge" HorizontalAlignment="Left" Height="24" Margin="420,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51" SpellCheck.IsEnabled="True"/>
+        <TextBox x:Name="textMonth" HorizontalAlignment="Left" Height="23" Margin="60,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textTotal" HorizontalAlignment="Left" Height="23" Margin="420,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51"/>
+        <RadioButton x:Name="radioCanadian" Content="Canadian Citizen" HorizontalAlignment="Left" Margin="75,65,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="radioInternational" Content="International Student" HorizontalAlignment="Left" Margin="210,65,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Left" Margin="258,180,0,0" VerticalAlignment="Top" Width="75" Click="btnCalc_Click"/>
+    </Grid>
+</Window>
