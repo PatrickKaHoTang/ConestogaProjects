@@ -1,0 +1,15 @@
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.exe.config
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.exe
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.pdb
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.exe
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.pdb
+E:\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.exe.config
+E:\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.exe
+E:\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.pdb
+E:\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.exe
+E:\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.pdb
+E:\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.csprojResolveAssemblyReference.cache
+\\FS04D\Stu6\Home\Ptang4865\PROG1780\A2PatrickTangP2\A2PatrickTangP2\A2PatrickTangP2\bin\Debug\A2PatrickTangP2.exe.config
+\\FS04D\Stu6\Home\Ptang4865\PROG1780\A2PatrickTangP2\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.exe
+\\FS04D\Stu6\Home\Ptang4865\PROG1780\A2PatrickTangP2\A2PatrickTangP2\A2PatrickTangP2\obj\Debug\A2PatrickTangP2.pdb

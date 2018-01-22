@@ -1,0 +1,6 @@
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\bin\Release\A2PatrickTangP2.exe.config
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\bin\Release\A2PatrickTangP2.exe
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\bin\Release\A2PatrickTangP2.pdb
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\obj\Release\A2PatrickTangP2.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\obj\Release\A2PatrickTangP2.exe
+C:\Users\Patrick\Desktop\PROG1780\A2PatrickTangP2\A2PatrickTangP2\obj\Release\A2PatrickTangP2.pdb
