@@ -1,0 +1,15 @@
+G:\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.exe.config
+G:\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.csprojResolveAssemblyReference.cache
+G:\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.exe
+G:\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.pdb
+G:\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.exe
+G:\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.pdb
+D:\Conestoga College\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.exe.config
+D:\Conestoga College\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.exe
+D:\Conestoga College\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.pdb
+D:\Conestoga College\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.csprojResolveAssemblyReference.cache
+D:\Conestoga College\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.exe
+D:\Conestoga College\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.pdb
+G:\Year 1\Level 1\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\bin\Debug\A4PatrickTang.exe.config
+G:\Year 1\Level 1\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.exe
+G:\Year 1\Level 1\PROG1780\assignments\assignment4\A4PatrickTang\A4PatrickTang\obj\Debug\A4PatrickTang.pdb
