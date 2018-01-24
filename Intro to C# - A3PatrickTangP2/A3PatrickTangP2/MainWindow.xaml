@@ -1,0 +1,23 @@
+﻿<Window x:Class="A3PatrickTangP2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="A3PatrickTangP2" Height="350" Width="240">
+    <Grid>
+        <Label x:Name="lblFirst" Content="First Input:" HorizontalAlignment="Left" Margin="15,22,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSecond" Content="Second Input:" HorizontalAlignment="Left" Margin="15,53,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblResult" Content="Result:" HorizontalAlignment="Left" Margin="15,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblError" Content="Error:" HorizontalAlignment="Left" Margin="15,225,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAdd" Content="Add" HorizontalAlignment="Left" Margin="22,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSub" Content="Sub" HorizontalAlignment="Left" Margin="72,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMulti" Content="Multi" HorizontalAlignment="Left" Margin="119,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDiv" Content="Div" HorizontalAlignment="Left" Margin="173,100,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="25,120,0,0" VerticalAlignment="Top" Width="25" Click="btnPlus_Click"/>
+        <Button x:Name="btnSubtract" Content="-" HorizontalAlignment="Left" Margin="75,120,0,0" VerticalAlignment="Top" Width="25" Click="btnSubtract_Click"/>
+        <Button x:Name="btnMultiply" Content="*" HorizontalAlignment="Left" Margin="125,120,0,0" VerticalAlignment="Top" Width="25" Click="btnMultiply_Click"/>
+        <Button x:Name="btnDivide" Content="/" HorizontalAlignment="Left" Margin="175,120,0,0" VerticalAlignment="Top" Width="25" Click="btnDivide_Click"/>
+        <TextBox x:Name="textValue1" HorizontalAlignment="Left" Height="23" Margin="125,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" TextAlignment="Right"/>
+        <TextBox x:Name="textValue2" HorizontalAlignment="Left" Height="23" Margin="125,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" TextAlignment="Right"/>
+        <TextBox x:Name="textResult" HorizontalAlignment="Left" Height="23" Margin="80,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" TextAlignment="Right"/>
+        <TextBox x:Name="textError" HorizontalAlignment="Left" Height="50" Margin="15,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" IsReadOnly="True"/>
+    </Grid>
+</Window>
