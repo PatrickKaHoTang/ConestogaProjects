@@ -1,0 +1,15 @@
+D:\Conestoga College\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.exe.config
+D:\Conestoga College\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.exe
+D:\Conestoga College\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.pdb
+D:\Conestoga College\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.csprojResolveAssemblyReference.cache
+D:\Conestoga College\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.exe
+D:\Conestoga College\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.pdb
+G:\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.exe.config
+G:\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.exe
+G:\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.pdb
+G:\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.exe
+G:\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.pdb
+G:\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.csprojResolveAssemblyReference.cache
+\\FS04D\Stu6\Home\Ptang4865\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\bin\Debug\A3PatrickTangP1.exe.config
+\\FS04D\Stu6\Home\Ptang4865\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.exe
+\\FS04D\Stu6\Home\Ptang4865\PROG1780\assignments\assignment3\A3PatrickTangP1\A3PatrickTangP1\A3PatrickTangP1\obj\Debug\A3PatrickTangP1.pdb
