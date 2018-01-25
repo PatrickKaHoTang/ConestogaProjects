@@ -1,0 +1,63 @@
+Patrick Tang
+
+PROG2220: Section #4
+
+Assignment #4: Task #3
+
+Current System Date
+2016-11-15 22:28:11
+
+
+*** Task 3, Q1. SWE Exercise 4 [1 point] ***
+
+UPDATE: rows affected
+17
+p_id	c_id	roll_on_date	roll_off_date	total_days
+1	101	2011-06-15	2011-12-15	183
+1	103	2011-01-05	2011-06-05	151
+1	104	2011-01-05	2011-12-15	344
+1	105	2011-01-05	2011-12-15	344
+2	100	2011-07-17	2011-09-17	62
+2	105	2011-07-17	2011-09-17	62
+3	103	2011-09-15	2012-03-15	182
+3	104	2011-10-15	2011-12-15	61
+4	102	2011-07-15	2011-12-15	153
+4	104	2011-06-15	2011-12-15	183
+4	105	2011-06-05	2012-06-05	366
+5	103	2011-09-19	2012-03-19	182
+5	105	2011-09-19	2012-03-19	182
+6	103	2011-09-19	2012-03-19	182
+6	104	2011-09-19	2012-03-19	182
+7	100	2011-05-25	2011-12-20	209
+7	102	2011-05-20	2011-12-20	214
+
+
+*** Task 3, Q2. SWE Exercise 2 [4 points] ***
+
+INSERT: rows affected
+1
+audit_id	audit_e_id	audit_score	audit_user
+1	100	90	NULL
+
+
+*** Task 3, Q3. SWE Exercise 3 [5 points] ***
+
+INSERT: rows affected
+1
+audit_id	audit_e_id	audit_score	audit_user	audit_date
+1	100	90	NULL	NULL
+2	100	95	root@localhost	2016-11-15 22:28:11
+INSERT: rows affected (negative test: check err file)
+1
+
+
+*** Task 3, Q4. SWE Exercise 4 [1 point] ***
+
+INSERT: rows affected (negative test: check err file)
+-1
+
+
+*** Task 3, Q5. SWE Exercise 5 [2 points] ***
+
+DELETE: rows affected (negative test: check err file)
+-1

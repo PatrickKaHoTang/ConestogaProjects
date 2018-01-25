@@ -1,0 +1,64 @@
+Patrick Tang
+
+PROG2220: Section 4
+
+Assignment 2: Task 2
+
+Current System Date
+2016-10-05 10:18:09
+
+
+*** Task 2, Q1. SWE Exercise 1 [2 points] ***
+
+c_city
+Altoona
+Chippewa Falls
+Eau Claire
+
+
+*** Task 2, Q2. SWE Exercise 2 [2 points] ***
+
+p_id	project_name
+2	Hardware Support Interface
+3	Hardware Support Database
+6	Network Design
+
+
+*** Task 2, Q3. SWE Exercise 3 [4 points] ***
+
+p_id	project_name	parent_p_id	project_name
+1	Hardware Support Intranet	NULL	NULL
+2	Hardware Support Interface	1	Hardware Support Intranet
+3	Hardware Support Database	1	Hardware Support Intranet
+4	Teller Support System	NULL	NULL
+5	Internet Advertising	NULL	NULL
+6	Network Design	5	Internet Advertising
+7	Exploration Database	NULL	NULL
+
+
+*** Task 2, Q4. SWE Exercise 4 [3 points] ***
+
+c_id	skill_id	certification
+100	1	Y
+103	1	Y
+105	4	Y
+100	6	Y
+103	6	Y
+102	7	Y
+103	8	Y
+103	9	Y
+104	9	Y
+
+
+*** Task 2, Q5. SWE Exercise 5 [4 points] ***
+
+c_id	c_last	c_first	skill_id	skill_description
+100	Myers	Mark	1	VB .NET Programming
+103	Carlson	Sarah	1	VB .NET Programming
+105	Park	Janet	4	Project Management
+100	Myers	Mark	6	Mobile Web Programming
+103	Carlson	Sarah	6	Mobile Web Programming
+102	Zhang	Brian	7	Database Administration
+103	Carlson	Sarah	8	Windows 2003 Network Administration
+103	Carlson	Sarah	9	Windows 2008 Network Administration
+104	Courtlandt	Paul	9	Windows 2008 Network Administration

@@ -1,0 +1,68 @@
+Patrick Tang
+
+PROG2220: Section 4
+
+Assignment 2: Task 1
+
+Current System Date
+2016-10-05 10:17:46
+
+
+*** Task 1, Q1. MGS Exercise 4-1 [5 points] ***
+
+category_name	product_name	list_price
+Basses	Fender Precision	799.99
+Basses	Hofner Icon	499.99
+Drums	Ludwig 5-piece Drum Set with Cymbals	699.99
+Drums	Tama 5-Piece Drum Set with Cymbals	799.99
+Guitars	Fender Stratocaster	699.00
+Guitars	Gibson Les Paul	1199.00
+Guitars	Gibson SG	2517.00
+Guitars	Rodriguez Caballero 11	415.00
+Guitars	Washburn D10S	299.00
+Guitars	Yamaha FG700S	489.99
+
+
+*** Task 1, Q2. MGS Exercise 4-2 [5 points] ***
+
+first_name	last_name	line1	city	state	zip_code
+Allan	Sherwood	100 East Ridgewood Ave.	Paramus	NJ	07652
+Allan	Sherwood	21 Rosewood Rd.	Woodcliff Lake	NJ	07677
+
+
+*** Task 1, Q3. MGS Exercise 4-4 [5 points] ***
+
+last_name	first_name	order_date	product_name	item_price	discount_amount	quantity
+Brown	Christine	2015-03-30 15:22:31	Gibson Les Paul	1199.00	359.70	2
+Goldstein	David	2015-03-31 05:43:11	Washburn D10S	299.00	0.00	1
+Goldstein	David	2015-04-03 12:22:31	Fender Stratocaster	699.00	209.70	1
+Hernandez	Gary	2015-04-02 11:26:38	Tama 5-Piece Drum Set with Cymbals	799.99	120.00	1
+Sherwood	Allan	2015-03-28 09:40:28	Gibson Les Paul	1199.00	359.70	1
+Sherwood	Allan	2015-03-29 09:44:58	Gibson SG	2517.00	1308.84	1
+Sherwood	Allan	2015-03-29 09:44:58	Rodriguez Caballero 11	415.00	161.85	1
+Valentino	Erin	2015-03-31 18:37:22	Washburn D10S	299.00	0.00	1
+Wilson	Frank Lee	2015-04-01 23:11:12	Fender Precision	799.99	240.00	1
+Wilson	Frank Lee	2015-04-01 23:11:12	Fender Stratocaster	699.00	209.70	1
+Wilson	Frank Lee	2015-04-01 23:11:12	Ludwig 5-piece Drum Set with Cymbals	699.99	210.00	1
+Zimmer	Barry	2015-03-28 11:23:20	Yamaha FG700S	489.99	186.20	1
+
+
+*** Task 1, Q4. MGS Exercise 4-5 [5 points] ***
+
+product_id	product_name	list_price
+10	Tama 5-Piece Drum Set with Cymbals	799.99
+7	Fender Precision	799.99
+
+
+*** Task 1, Q5. MGS Exercise 4-7 [5 points] ***
+
+ship_status	order_id	order_date
+SHIPPED	1	2015-03-28 09:40:28
+SHIPPED	2	2015-03-28 11:23:20
+SHIPPED	3	2015-03-29 09:44:58
+SHIPPED	4	2015-03-30 15:22:31
+SHIPPED	5	2015-03-31 05:43:11
+NOT SHIPPED	6	2015-03-31 18:37:22
+SHIPPED	7	2015-04-01 23:11:12
+NOT SHIPPED	8	2015-04-02 11:26:38
+NOT SHIPPED	9	2015-04-03 12:22:31

@@ -1,0 +1,56 @@
+Patrick Tang
+
+PROG2220: Section #4
+
+Assignment #5: Task #2
+
+Current System Date
+2016-11-30 10:30:36
+
+
+*** Task 2, Q1. SWE Exercise 1 [4 points] ***
+
+average
+88.33
+
+
+*** Task 2, Q2. SWE Exercise 2 [4 points] ***
+
+p_id	c_id	months
+1	    101	         6
+1	    103	         4
+1	    104	        11
+1	    105	        11
+2	    100	         2
+2	    105	         2
+3	    103	         5
+3	    104	         2
+4	    102	         5
+4	    104	         6
+4	    105	        12
+5	    103	         5
+5	    105	         5
+6	    103	         5
+6	    104	         5
+7	    100	         6
+7	    102	         7
+
+
+*** Task 2, Q3. SWE Exercise 3 [5 points] ***
+
+c_id	consultant_full_name	skill_id	certification
+ 100	Myers, Mark         	       1	Certified    
+ 100	Myers, Mark         	       3	Not Certified
+ 100	Myers, Mark         	       6	Certified    
+ 101	Hernandez, Sheila   	       4	Not Certified
+ 101	Hernandez, Sheila   	       5	Not Certified
+ 102	Zhang, Brian        	       7	Certified    
+ 103	Carlson, Sarah      	       1	Certified    
+ 103	Carlson, Sarah      	       6	Certified    
+ 103	Carlson, Sarah      	       8	Certified    
+ 103	Carlson, Sarah      	       9	Certified    
+ 104	Courtlandt, Paul    	       8	Not Certified
+ 104	Courtlandt, Paul    	       9	Certified    
+ 105	Park, Janet         	       2	Not Certified
+ 105	Park, Janet         	       3	Not Certified
+ 105	Park, Janet         	       4	Certified    

@@ -1,0 +1,43 @@
+Patrick Tang
+
+PROG2220: Section #4
+
+Assignment #5: Task #3
+
+Current System Date
+2016-11-30 10:34:12
+
+
+*** Task 3, Q1. MGS Exercise 12-3 [5 points] ***
+
+
+
+*** Task 3, Q2. MGS Exercise 12-4 [2 points] ***
+
+order_id	product_name	item_total
+4	Gibson Les Paul	1678.60
+3	Gibson SG	1208.16
+1	Gibson Les Paul	839.30
+8	Tama 5-Piece Drum Set with Cymbals	679.99
+7	Fender Precision	559.99
+7	Ludwig 5-piece Drum Set with Cymbals	489.99
+7	Fender Stratocaster	489.30
+9	Fender Stratocaster	489.30
+2	Yamaha FG700S	303.79
+5	Washburn D10S	299.00
+6	Washburn D10S	299.00
+3	Rodriguez Caballero 11	253.15
+
+
+*** Task 3, Q3. MGS Exercise 12-5 [4 points] ***
+
+
+
+*** Task 3, Q4. MGS Exercise 12-6 [2 points] ***
+
+product_name	order_total
+Gibson Les Paul	2517.90
+Gibson SG	1208.16
+Fender Stratocaster	978.60
+Tama 5-Piece Drum Set with Cymbals	679.99
+Washburn D10S	598.00

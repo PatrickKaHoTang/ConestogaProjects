@@ -1,0 +1,43 @@
+Patrick Tang
+
+PROG2220: Section #4
+
+Assignment #4: Task #1
+
+Current System Date
+2016-11-15 22:05:33
+
+
+*** Task 1, Q1. MGS Exercise 6-1 [3 points] ***
+
+order_count	tax_total
+9	122.24
+
+
+*** Task 1, Q2. MGS Exercise 6-2 [4 points] ***
+
+category_name	product_count	most_expensive_product
+Guitars	6	2517.00
+Basses	2	799.99
+Drums	2	799.99
+
+
+*** Task 1, Q3. MGS Exercise 6-6 [3 points] ***
+
+product_name	product_total
+Fender Precision	559.99
+Fender Stratocaster	978.60
+Gibson Les Paul	2517.90
+Gibson SG	1208.16
+Ludwig 5-piece Drum Set with Cymbals	489.99
+Rodriguez Caballero 11	253.15
+Tama 5-Piece Drum Set with Cymbals	679.99
+Washburn D10S	598.00
+Yamaha FG700S	303.79
+NULL	7589.57
+
+
+*** Task 1, Q4. MGS Exercise 7-3 [3 points] ***
+
+category_name
+Keyboards
