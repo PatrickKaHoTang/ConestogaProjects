@@ -1,0 +1,14 @@
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.exe.config
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.exe
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.pdb
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.csprojResolveAssemblyReference.cache
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\MainWindow.g.cs
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\App.g.cs
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1_MarkupCompile.cache
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1_MarkupCompile.lref
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\MainWindow.baml
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.g.resources
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.Properties.Resources.resources
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.csproj.GenerateResource.Cache
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.exe
+D:\Conestoga College\OOP\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.pdb
