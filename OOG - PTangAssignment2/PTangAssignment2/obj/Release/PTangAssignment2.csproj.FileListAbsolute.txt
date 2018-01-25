@@ -1,0 +1,13 @@
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\bin\Release\PTangAssignment2.exe.config
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\bin\Release\PTangAssignment2.exe
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\bin\Release\PTangAssignment2.pdb
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\MainWindow.g.cs
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\App.g.cs
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2_MarkupCompile.cache
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2_MarkupCompile.lref
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\MainWindow.baml
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2.g.resources
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2.Properties.Resources.resources
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2.csproj.GenerateResource.Cache
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2.exe
+D:\Conestoga College\OOP\PTangAssignment2\PTangAssignment2\obj\Release\PTangAssignment2.pdb
