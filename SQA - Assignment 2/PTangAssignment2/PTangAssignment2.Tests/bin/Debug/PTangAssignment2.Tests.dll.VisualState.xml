@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1017]G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2.Tests\bin\Debug\PTangAssignment2.Tests.dll</TopNode>
+  <SelectedNode>[0-1000]PTangAssignment2.Tests.TriangleSolverTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1017]G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2.Tests\bin\Debug\PTangAssignment2.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1018]PTangAssignment2" Expanded="true" />
+    <Node UniqueName="[0-1019]PTangAssignment2.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]PTangAssignment2.Tests.TriangleSolverTest" Expanded="true" />
+    <Node UniqueName="[0-1015]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsBigNumbers_ReturnsScalene" Expanded="true" />
+    <Node UniqueName="[0-1001]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsFiveFiveFive_ReturnsEquilateral" Expanded="true" />
+    <Node UniqueName="[0-1009]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsNegatives_ReturnsInvalid" Expanded="true" />
+    <Node UniqueName="[0-1013]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsOneNegative_ReturnsInvalid" Expanded="true" />
+    <Node UniqueName="[0-1007]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsThreeFiveOne_ReturnsInvalid" Expanded="true" />
+    <Node UniqueName="[0-1005]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsTwoFourThree_ReturnsScalene" Expanded="true" />
+    <Node UniqueName="[0-1003]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsTwoThreeTwo_ReturnsIsosceles" Expanded="true" />
+    <Node UniqueName="[0-1011]PTangAssignment2.Tests.TriangleSolverTest.TestingTriangleSides_InputsZeroZeroZero_ReturnsInvalid" Expanded="true" />
+  </Nodes>
+</VisualState>

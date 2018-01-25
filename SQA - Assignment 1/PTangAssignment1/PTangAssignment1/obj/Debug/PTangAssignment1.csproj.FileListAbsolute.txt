@@ -1,0 +1,6 @@
+G:\Year 2\Level 4\PROG2070\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.exe.config
+G:\Year 2\Level 4\PROG2070\Assignment 1\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.exe.config
+G:\Year 2\Level 4\PROG2070\Assignment 1\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.exe
+G:\Year 2\Level 4\PROG2070\Assignment 1\PTangAssignment1\PTangAssignment1\bin\Debug\PTangAssignment1.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 1\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.exe
+G:\Year 2\Level 4\PROG2070\Assignment 1\PTangAssignment1\PTangAssignment1\obj\Debug\PTangAssignment1.pdb

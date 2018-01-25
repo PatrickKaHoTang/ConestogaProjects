@@ -1,0 +1,24 @@
+c:\users\administrator\documents\visual studio 2015\Projects\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe
+c:\users\administrator\documents\visual studio 2015\Projects\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.exe
+c:\users\administrator\documents\visual studio 2015\Projects\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe.config
+G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.exe
+G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe
+G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe.config
+C:\Users\Patrick\Desktop\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.exe
+C:\Users\Patrick\Desktop\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.pdb
+C:\Users\Patrick\Desktop\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe
+C:\Users\Patrick\Desktop\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.pdb
+C:\Users\Patrick\Desktop\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe.config
+C:\Users\Patrick\Desktop\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.exe
+C:\Users\Patrick\Desktop\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.pdb
+C:\Users\Patrick\Desktop\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.exe
+C:\Users\Patrick\Desktop\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\bin\Debug\PTangAssignment2.pdb
+C:\Users\Patrick\Desktop\Year 2\Level 4\PROG2070\Assignment 2\PTangAssignment2\PTangAssignment2\obj\Debug\PTangAssignment2.csprojResolveAssemblyReference.cache
