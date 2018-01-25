@@ -1,0 +1,24 @@
+form {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+form label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	clear: left;
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+form input, select {
+	float: left;
+	margin-bottom: 10px;
+}
+
+#buttons {
+	clear: both;
+	margin-left: 150px;
+}

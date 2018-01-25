@@ -1,0 +1,169 @@
+<!--
+Purpose:   Creating a web application for an online store. It should provide the customer the
+		   necessary information for the product or products to the customer.
+
+File Name: assignment4.html
+
+Created by Patrick Tang
+
+Revision History (Overview):
+	March 10, 2016 - Created
+	March 13, 2016 - Added JavaScript validations, PHP validations, and HTML code
+	March 15, 2016 - Added CSS file to make it look a little more appealing
+	March 16, 2016 - Added table to present the items I am selling on this assignment
+	March 17, 2016 - Changed the way I've been finding data with a different command.
+					 ie. document.form -> document.getElementById("")
+	March 23, 2016 - Added calculations, shipping, delivery, tax, number_format to look more
+					 appealing, and the receipt page
+	March 29, 2016 - Added the following:
+						* JavaScript - Added a simple jQuery function
+						* PHP - Added a non numeric validation for names, a better presentation
+						        for the receipt, and fixed delivery "days" to an actual date
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Assignment 4</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="validation.js"></script>
+</head>
+
+<body>
+	<h2>Assignment 4</h2>
+	
+	<hr>
+	
+	<h2>Please select items that you would like to purchase!</h2>
+	<p>(10 maximum per item)</p>
+	
+	<form name="form" action="validation.php" method="post" onsubmit="return validateForm()">
+		<div id="table">
+			<table>
+				<tr>
+					<td id="labels">Item</td>
+					<td id="labels">Price</td>
+					<td id="labels">Quantity</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/SDCard4GB.png">
+					</td>
+					<td>
+						<h2>$4.99</h2>
+					</td>
+					<td>
+						<input type="number" id="spinner" name="item4GB" value="0" min="0" max="10" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/SDCard8GB.png">
+					</td>
+					<td>
+						<h2>$9.99</h2>
+					</td>
+					<td>
+						<input type="number" id="spinner" name="item8GB" value="0" min="0" max="10" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/SDCard16GB.png">
+					</td>
+					<td>
+						<h2>$14.99</h2>
+					</td>
+					<td>
+						<input type="number" id="spinner" name="item16GB" value="0" min="0" max="10" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/SDCard32GB.png">
+					</td>
+					<td>
+						<h2>$19.99</h2>
+					</td>
+					<td>
+						<input type="number" id="spinner" name="item32GB" value="0" min="0" max="10" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/SDCard64GB.png">
+					</td>
+					<td>
+						<h2>$39.99</h2>
+					</td>
+					<td>
+						<input type="number" id="spinner" name="item64GB" value="0" min="0" max="10" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/SDCard128GB.png">
+					</td>
+					<td>
+						<h2>$59.99</h2>
+					</td>
+					<td>
+						<input type="number" id="spinner" name="item128GB" value="0" min="0" max="10" />
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<hr>
+		
+		<h2>Order Information</h2>
+		
+		<div id="form">
+			<label for="firstName">First Name:</label>
+			<input type="text" id="firstName" name="firstName" size="20" onblur="trim()"/><br>
+			
+			<label for="lastName">Last Name:</label>
+			<input type="text" id="lastName" name="lastName" size="20" onblur="trim()" /><br>
+			
+			<label for="address">Shipping Address:</label>
+			<input type="text" id="address" name="address" size="50" onblur="trim()" /><br>
+			
+			<label for="city">City:</label>
+			<input type="text" id="city" name="city" size="20" onblur="trim()" /><br>
+		
+			<label for="provinceCode">Province:</label>
+			<select name="provinceCode" id="provinceCode">
+				<option selected="" value="Default">(Please Select a Province)</option>
+				<option value="AB">Alberta</option>
+				<option value="BC">British Columbia</option>
+				<option value="MB">Manitoba</option>
+				<option value="NB">New Brunswick</option>
+				<option value="NL">Newfoundland and Labrador</option>
+				<option value="NS">Nova Scotia</option>
+				<option value="NT">Northwest Territories</option>
+				<option value="NU">Nunavut</option>
+				<option value="ON">Ontario</option>
+				<option value="PE">Prince Edward Island</option>
+				<option value="QC">Quebec</option>
+				<option value="SK">Saskatchewan</option>
+				<option value="YT">Yukon</option>
+			</select><br>
+			
+			<label for="postalCode">Postal Code:</label>
+			<input type="text" id="postalCode" name="postalCode" size="6" onblur="trim()" />
+			
+		</div>
+		
+		<div id="button">
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		<div>
+	</form>
+</body>
+
+</html>

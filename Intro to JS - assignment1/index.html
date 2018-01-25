@@ -1,0 +1,98 @@
+<!--
+Purpose: Creating a javascript to display
+numbers used and the sum of all numbers
+
+File Name: Assignment 1
+
+Created by Patrick Tang
+
+Date: January 19, 2016
+-->
+
+<html>
+
+<head>
+	<title>Assignment 1</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<script type="text/javascript">
+		function getSum()
+		{
+			document.getElementById("displayEven").innerHTML = "";
+			document.getElementById("sumEven").innerHTML = "";
+			document.getElementById("averageEven").innerHTML = "";
+
+			document.getElementById("displayOdd").innerHTML = "";
+			document.getElementById("sumOdd").innerHTML = "";
+			document.getElementById("averageOdd").innerHTML = "";
+
+			var num = 0;
+
+			var countEven = 0;
+			var countOdd = 0;
+
+			var averageEven = 0;
+			var averageOdd = 0;
+
+			var sumEven = 0;
+			var sumOdd = 0;
+
+			document.getElementById("displayEven").innerHTML = "<h2>Numbers used: </h2>";
+			document.getElementById("displayOdd").innerHTML = "<h2>Numbers used: </h2>";
+
+			while (true)
+			{
+				var input = prompt("Please enter a number: ");
+
+				if (input === null)
+				{
+					break;
+				}
+
+				num = parseInt(input);
+
+				if (isNaN(num) || num <= 0)
+				{
+					alert("You must enter a number and must be greater than 0.");
+				}
+				else if (num % 2 == 0)
+				{
+					countEven++;
+					sumEven += num;
+					averageEven = sumEven/countEven;
+
+					document.getElementById("displayEven").innerHTML +=num + " ";
+					document.getElementById("sumEven").innerHTML = "<h2>Total sum: </h2>" + sumEven;
+					document.getElementById("averageEven").innerHTML = "<h2>Average even numbers: </h2>" + averageEven;
+				}
+				else
+				{
+					countOdd++;
+					sumOdd += num;
+					averageOdd = sumOdd/countOdd;
+
+					document.getElementById("displayOdd").innerHTML +=num + " ";
+					document.getElementById("sumOdd").innerHTML = "<h2>Total sum: </h2>" + sumOdd;
+					document.getElementById("averageOdd").innerHTML = "<h2>Average odd numbers: </h2>" + averageOdd;
+				}
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<h2>Even numbers</h2>
+	<hr>
+	<p id="displayEven"></p>
+	<p id="sumEven"><p>
+	<p id="averageEven"><p>
+	<hr>
+	<h2>Odd numbers</h2>
+	<hr>
+	<p id="displayOdd"></p>
+	<p id="sumOdd"></p>
+	<p id="averageOdd"></p>
+	<hr>
+	<button type="button" onclick="getSum()">Click Here to Start</button>
+</body>
+
+</html>

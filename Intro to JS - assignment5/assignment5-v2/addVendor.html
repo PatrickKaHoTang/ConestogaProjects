@@ -1,0 +1,142 @@
+<!--
+Purpose: Using Javascript/HTML to pass data to a database using PHP
+
+File Name: addVendor.html
+
+Created by Patrick Tang
+
+Revision History:
+		April 5, 2016  - Created
+		April 13, 2016 - Separated page from a consolidated page
+						 ** From assignment5.html to addVendor.html **
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Adding Vendor</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="validate.js"></script>
+	<script src="jQuery.v1.14.0.js"></script>
+	<script src="jQuery-provState.js"></script>
+</head>
+
+<body>
+	<h2>Adding Vendor</h2>
+	
+	<fieldset>
+		<legend><h2>Vendor</h2></legend>
+		<form name="vendor" method="post" action="vendor.php" onsubmit="return validateVendor()">
+			<div id="formVendor">
+				<label for="vendorNum1">Vendor Number:</label>
+				<input type="text" id="vendorNum1" name="vendorNum1" onblur="trimVendor()"><br>
+				
+				<label for="vendorName">Vendor Name:</label>
+				<input type="text" id="vendorName" name="vendorName" onblur="trimVendor()"><br>
+				
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address" onblur="trimVendor()"><br>
+				
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city" onblur="trimVendor()"><br>
+				
+				<label for="provState">Province/State:</label>
+				<input type="text" id="provState" name="provState" onblur="trimVendor()"><br>
+				
+				<label for="provState">Province:</label>
+				<select name="provState" id="provState">
+					<option selected="" value="Default">(Please Select a Province or State)</option>
+					<option name="Canada" value="AB">Alberta</option>
+					<option name="Canada" value="BC">British Columbia</option>
+					<option name="Canada" value="MB">Manitoba</option>
+					<option name="Canada" value="NB">New Brunswick</option>
+					<option name="Canada" value="NL">Newfoundland and Labrador</option>
+					<option name="Canada" value="NS">Nova Scotia</option>
+					<option name="Canada" value="NT">Northwest Territories</option>
+					<option name="Canada" value="NU">Nunavut</option>
+					<option name="Canada" value="ON">Ontario</option>
+					<option name="Canada" value="PE">Prince Edward Island</option>
+					<option name="Canada" value="QC">Quebec</option>
+					<option name="Canada" value="SK">Saskatchewan</option>
+					<option name="Canada" value="YT">Yukon</option>
+					
+					<option name="U.S.A" value="AL">Alabama</option>
+					<option name="U.S.A" value="AK">Alaska</option>
+					<option name="U.S.A" value="AZ">Arizona</option>
+					<option name="U.S.A" value="AR">Arkansas</option>
+					<option name="U.S.A" value="CA">California</option>
+					<option name="U.S.A" value="CO">Colorado</option>
+					<option name="U.S.A" value="CT">Connecticut</option>
+					<option name="U.S.A" value="DE">Delaware</option>
+					<option name="U.S.A" value="FL">Florida</option>
+					<option name="U.S.A" value="GA">Georgia</option>
+					<option name="U.S.A" value="HI">Hawaii</option>
+					<option name="U.S.A" value="ID">Idaho</option>
+					<option name="U.S.A" value="IL">Illinois</option>
+					<option name="U.S.A" value="IN">Indiana</option>
+					<option name="U.S.A" value="IA">Iowa</option>
+					<option name="U.S.A" value="KS">Kansas</option>
+					<option name="U.S.A" value="KY">Kentucky</option>
+					<option name="U.S.A" value="LA">Louisiana</option>
+					<option name="U.S.A" value="ME">Maine</option>
+					<option name="U.S.A" value="MD">Maryland</option>
+					<option name="U.S.A" value="MA">Massachusetts</option>
+					<option name="U.S.A" value="MI">Michigan</option>
+					<option name="U.S.A" value="MN">Minnesota</option>
+					<option name="U.S.A" value="MS">Mississippi</option>
+					<option name="U.S.A" value="MO">Missouri</option>
+					<option name="U.S.A" value="MT">Montana</option>
+					<option name="U.S.A" value="NE">Nebraska</option>
+					<option name="U.S.A" value="NV">Nevada</option>
+					<option name="U.S.A" value="NH">New Hampshire</option>
+					<option name="U.S.A" value="NJ">New Jersey</option>
+					<option name="U.S.A" value="NM">New Mexico</option>
+					<option name="U.S.A" value="NY">New York</option>
+					<option name="U.S.A" value="NC">North Carolina</option>
+					<option name="U.S.A" value="ND">North Dakota</option>
+					<option name="U.S.A" value="OH">Ohio</option>
+					<option name="U.S.A" value="OK">Oklahoma</option>
+					<option name="U.S.A" value="OR">Oregon</option>
+					<option name="U.S.A" value="PA">Pennsylvania</option>
+					<option name="U.S.A" value="RI">Rhode Island</option>
+					<option name="U.S.A" value="SC">South Carolina</option>
+					<option name="U.S.A" value="SD">South Dakota</option>
+					<option name="U.S.A" value="TN">Tennessee</option>
+					<option name="U.S.A" value="TX">Texas</option>
+					<option name="U.S.A" value="UT">Utah</option>
+					<option name="U.S.A" value="VT">Vermont</option>
+					<option name="U.S.A" value="VA">Virginia</option>
+					<option name="U.S.A" value="WA">Washington</option>
+					<option name="U.S.A" value="WV">West Virginia</option>
+					<option name="U.S.A" value="WI">Wisconsin</option>
+					<option name="U.S.A" value="WY">Wyoming</option>
+				</select><br>
+				
+				<label for="postalZip">Postal/Zip Code:</label>
+				<input type="text" id="postalZip" name="postalZip" onblur="trimVendor()"><br>
+				
+				<label for="country">Country:</label>
+				<select name="country" id="country">
+					<option selected="" value="Default">(Please select a country)</option>
+						<option name="Canada" value="Canada">Canada</option>
+						<option name="U.S.A" value="U.S.A.">U.S.A.</option>
+				<select></br>
+				
+				<label for="phone">Phone Number:</label>
+				<input type="text" id="phone" name="phone" onblur="trimVendor()"><br>
+				
+				<label for="fax">Fax Number:</label>
+				<input type="text" id="fax" name="fax" onblur="trimVendor()">
+			</div>
+			
+			<div id="buttons">
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</div>
+		</form>
+	</fieldset>
+</body>
+
+</html>

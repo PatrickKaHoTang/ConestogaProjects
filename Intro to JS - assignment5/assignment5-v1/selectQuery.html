@@ -1,0 +1,31 @@
+<!--
+Purpose: Using Javascript/HTML to pass data to a database using PHP
+
+File Name: selectQuery.html
+
+Created by Patrick Tang
+
+Revision History:
+		April 5, 2016 - Created
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Adding Part</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="validate.js"></script>
+</head>
+
+<body>
+	<h2>Select a Query</h2>
+	
+	<p>Please select a query:</p>
+	
+	<input type="button" name="queryVendor" value="Vendor" onClick="javascript:location.href='query.php?query=vendor'"><br>
+	<input type="button" name="queryPart" value="Part" onClick="javascript:location.href='query.php'">
+</body>
+
+</html>

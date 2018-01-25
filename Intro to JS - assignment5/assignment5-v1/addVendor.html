@@ -1,0 +1,67 @@
+<!--
+Purpose: Using Javascript/HTML to pass data to a database using PHP
+
+File Name: addVendor.html
+
+Created by Patrick Tang
+
+Revision History:
+		April 5, 2016 - Created
+		April 7, 2016 - Fixed Javascript validations to reflect last assignment
+		              - Added query.php (Not sure if it works correctly)
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Adding Vendor</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="validate.js"></script>
+</head>
+
+<body>
+	<h2>Adding Vendor</h2>
+	
+	<fieldset>
+		<legend><h2>Vendor</h2></legend>
+		<form name="vendor" method="post" action="vendor.php" onsubmit="return validateVendor()">
+			<div id="formVendor">
+				<label for="vendorNum1">Vendor Number:</label>
+				<input type="text" id="vendorNum1" name="vendorNum1" onblur="trimVendor()"><br>
+				
+				<label for="vendorName">Vendor Name:</label>
+				<input type="text" id="vendorName" name="vendorName" onblur="trimVendor()"><br>
+				
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address" onblur="trimVendor()"><br>
+				
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city" onblur="trimVendor()"><br>
+				
+				<label for="provState">Province/State:</label>
+				<input type="text" id="provState" name="provState" onblur="trimVendor()"><br>
+				
+				<label for="postalZip">Postal/Zip Code:</label>
+				<input type="text" id="postalZip" name="postalZip" onblur="trimVendor()"><br>
+				
+				<label for="country">Country:</label>
+				<input type="text" id="country" name="country" onblur="trimVendor()"><br>
+				
+				<label for="phone">Phone Number:</label>
+				<input type="text" id="phone" name="phone" onblur="trimVendor()"><br>
+				
+				<label for="fax">Fax Number:</label>
+				<input type="text" id="fax" name="fax" onblur="trimVendor()">
+			</div>
+			
+			<div id="buttons">
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</div>
+		</form>
+	</fieldset>
+</body>
+
+</html>

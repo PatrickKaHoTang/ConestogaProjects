@@ -1,0 +1,258 @@
+<!--
+Purpose: To create a form with validations, focus(), submission to an email
+
+File Name: assignment2.html
+
+Created by Patrick Tang
+
+Date: February 10, 2016
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Test</title>
+	<style>
+		form li {
+			list-style: none;
+			margin-bottom: 5px;
+		}
+		
+		form ul li label {
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			float: left;
+			clear: left;
+			width: 150px;
+			text-align: right;
+			margin-right: 10px;
+		}
+		
+		form ul li input, select, span {
+			float: left;
+			margin-bottom: 10px;
+		}
+		
+		[type="submit"] {
+			clear: left;
+			margin: 20px 0 0 230px;
+			font-size: 14px
+		}
+	</style>
+	<script type="text/javascript">
+		var message = "";
+		
+		function formValidation()
+		{
+			message = "";
+		
+			var name = document.form.name;
+			var address = document.form.address;
+			var city = document.form.city;
+			var postalCode = document.form.postalCode;
+			var provinceCode = document.form.provinceCode;
+			var phoneNumber = document.form.phoneNumber;
+			var email = document.form.email;
+			//var age = document.form.age;
+			//var genderMale = document.form.genderMale;
+			//var genderFemale = document.form.genderFemale;
+			
+			name.value = name.value.trim();
+			address.value = address.value.trim();
+			city.value = city.value.trim();
+			postalCode.value = postalCode.value.trim();
+			phoneNumber.value = phoneNumber.value.trim();
+			email.value = email.value.trim();
+			
+			postalCode.value = postalCode.value.toUpperCase();
+			
+			if ((validateName(name,2,50), validateAddress(address,5), validateCity(city,3), validatePostalCode(postalCode), validateProvinceCode(provinceCode), validatePhoneNumber(phoneNumber), validateEmail(email)) == true)
+			{
+			}
+			else
+			{
+				alert(message);
+				return false;
+			}
+		}
+		
+		function validateName(name,x,y)
+		{
+			var nameLength = name.value.length;
+			
+			if (nameLength == 0 || nameLength < x)
+			{
+				message += '- Your name must have at least ' + x + ' to ' + y + ' characters.\n';
+				name.focus();
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+		function validateAddress(address,x)
+		{
+			var addressLength = address.value.length;
+			
+			if (addressLength == 0 || addressLength < x)
+			{
+				message += '- Your address must be higher than ' + x + ' characters.\n';
+				address.focus();
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+		function validateCity(city,x)
+		{
+			var cityLength = city.value.length;
+			
+			if (cityLength == 0 || cityLength < x)
+			{
+				message += '- Your city must have more than ' + x + ' characters.\n';
+				city.focus();
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+		function validatePostalCode(postalCode)
+		{
+			var postalCodeFormat = /^[A-Z][0-9][A-Z][0-9][A-Z][0-9]$/i;
+			
+			if (postalCode.value.match(postalCodeFormat))
+			{
+				return true;
+			}
+			else
+			{
+				message += '- You must have the correct format for your postal code. ie. N2J2J9\n';
+				postalCode.focus();
+				return false;
+			}
+		}
+		
+		function validateProvinceCode(provinceCode)
+		{
+			if (provinceCode.value == "Default")
+			{
+				message += '- Select your country from the list\n';
+				provinceCode.focus();
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+		function validatePhoneNumber(phoneNumber)
+		{
+			var phoneNumberFormat = /^\(?(\d{3})\)?[\.\-\/\s]?(\d{3})[\.\-\/\s]?(\d{4})$/;
+			
+			if (!phoneNumber.value.match(phoneNumberFormat) || phoneNumber == "")
+			{
+				message += '- You must enter numerical values only.\n';
+				phoneNumber.focus();
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+		function validateEmail(email)
+		{
+			var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			
+			if (email.value.match(emailFormat))
+			{  
+				return true;
+			}  
+			else
+			{
+				message += '- You have entered an invalid email address. It must be written like the following: name@domainname.com\n';
+				email.focus();
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<form name="form" action="mailto:patrick_t15@hotmail.com" onsubmit="return formValidation(this)" method="post" />
+		<ul>
+			<li><label for="name">*Name:</label></li>
+			<li><input type="text" name="name" size="50" /></li>
+			
+			<li><label for="address">*Address:</label></li>
+			<li><input type="text" name="address" size="50" /></li>
+			
+			<li><label for="provinceCode">*Province:</label></li>
+			<li><select name="provinceCode">
+				<option selected="" value="Default">(Please Select a Province)</option>
+					<option value="Alberta">					AB</option>
+					<option value="British Columbia">			BC</option>
+					<option value="Manitoba">					MB</option>
+					<option value="New Brunswick">				NB</option>
+					<option value="Newfoundland and Labrador">	NL</option>
+					<option value="Nova Scotia">				NS</option>
+					<option value="Northwest Terrorities">		NT</option>
+					<option value="Nunavut">					NU</option>
+					<option value="Ontario">					ON</option>
+					<option value="Prince Edward Island">		PE</option>
+					<option value="Quebec">						QC</option>
+					<option value="Saskatchewan">				SK</option>
+					<option value="Yukon">						YT</option>
+			</select></li>
+			
+			<li><label for="city">*City:</label></li>
+			<li><input type="text" name="city" size="15" /></li>
+			
+			<li><label for="postalCode">*Postal Code:</label></li>
+			<li><input type="text" name="postalCode" size="6" /></li>
+			
+			<li><label for="phoneNumber">*Phone Number:</label></li>
+			<li><input type="tel" name="phoneNumber" size="14" /></li>
+			
+			<li><label for="email">*Email:</label></li>  
+			<li><input type="text" name="email" size="50" /></li>
+			
+			<li><label for="age">Age Range:</label></li>
+			<li><select name="age" size="8">
+				<option selected="" value="Default">(Please select an age range)</option>
+					<option value="18 or Younger">	18 or Younger</option>
+					<option value="19-25">			19-25</option>
+					<option value="26-34">			26-34</option>
+					<option value="35-44">			35-44</option>
+					<option value="45-54">			45-54</option>
+					<option value="55-64">			55-64</option>
+					<option value="65 or older">	65+</option>
+			</select></li>
+			
+			<li><label id="gender">Gender:</label></li>
+			<li><input type="radio" name="gender" value="Male" /><span>Male</span></li>
+			<li><input type="radio" name="gender" value="Female" /><span>Female</span></li>
+			
+			<li><label id="language">Preferred Language:<label></li>
+			<li><input type="checkbox" name="language" value="English"><span>English</span></li>
+			<li><input type="checkbox" name="language" value="French"><span>French</span></li>
+			<li><input type="checkbox" name="language" value="Other"><span>Other</span></li>
+			
+			<li><input type="submit" value="Submit"></li>
+		</ul>
+	</form>
+</body>
+
+</html>
