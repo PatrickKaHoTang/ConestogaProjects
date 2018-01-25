@@ -1,0 +1,18 @@
+D:\Conestoga College\SQA\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.exe.config
+D:\Conestoga College\SQA\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.csprojResolveAssemblyReference.cache
+D:\Conestoga College\SQA\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.exe
+D:\Conestoga College\SQA\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.pdb
+D:\Conestoga College\SQA\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.exe
+D:\Conestoga College\SQA\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.exe.config
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.exe
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.exe
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.csprojResolveAssemblyReference.cache
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.exe.config
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.exe
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.exe
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\bin\Debug\PTangAssignment3.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\PTangAssignment3\obj\Debug\PTangAssignment3.csprojResolveAssemblyReference.cache

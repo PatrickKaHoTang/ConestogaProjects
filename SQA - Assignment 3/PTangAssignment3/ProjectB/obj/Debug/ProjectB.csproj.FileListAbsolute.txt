@@ -1,0 +1,5 @@
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\ProjectB\bin\Debug\ProjectB.exe.config
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\ProjectB\bin\Debug\ProjectB.exe
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\ProjectB\bin\Debug\ProjectB.pdb
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\ProjectB\obj\Debug\ProjectB.exe
+G:\Year 2\Level 4\PROG2070\Assignment 3\PTangAssignment3\ProjectB\obj\Debug\ProjectB.pdb
